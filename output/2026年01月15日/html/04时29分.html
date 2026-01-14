@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 52</p><p>生成时间: 2026-01-15 04:29:00</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">AI 半导体 商业航空 黄金 白银 芯片 算力 科技</td>
+                <td class="count">11</td>
+                <td class="percentage">21.15%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3763318" target="_blank" class="news-link">OpenAI与Cerebras敲定超100亿美元协议，承诺购买至多750 MW算力</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 04时29分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260115041052630800" target="_blank" class="news-link">OpenAI：将与Cerebras合作，在我们的平台上新增750兆瓦的超低时延人工智能算力。产能将分多个批次在2028年前上线。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 04时29分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3763313" target="_blank" class="news-link">2026年迎IPO超级周期！OpenAI与Anthropic被爆采取初步行动，SpaceX已洽谈多家银行</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 04时29分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3763315" target="_blank" class="news-link">美执法机关对Grok“涉黄”动手：马斯克的xAI遭加州调查</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 04时29分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260115040930692800" target="_blank" class="news-link">现货白银日内暴涨7.00%，突破93美元/盎司，再创新高。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 04时29分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=46570811" target="_blank" class="news-link">Meet ski map artist James Niehues, the &#x27;Monet of the mountains&#x27;</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 04时29分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=46622139" target="_blank" class="news-link">Show HN: Harmony – AI notetaker for Discord</a> [6]</div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260115040309665800" target="_blank" class="news-link">美国总统特朗普：签署了一项行动，将允许我们对芯片销售征收25%的关税。</a> [10] <font color='grey'>- 04时29分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=46622463" target="_blank" class="news-link">Wind power slashed 4.6B euros off electricity bills in Spain last year</a> [11] <font color='grey'>- 04时29分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260115040115164800" target="_blank" class="news-link">据华尔街日报：OpenAI将在三年内从初创公司Cerebras购买多达750兆瓦的算力。</a> [15] <font color='grey'>- 04时29分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260115040037235800" target="_blank" class="news-link">据华尔街日报：OpenAI与初创公司Cerebras达成计算合作，OpenAI将使用Cerebras设计的芯片为ChatGPT提供动力。OpenAI与Cerebras的交易价值超过100亿美元。</a> [16] <font color='grey'>- 04时29分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">特朗普 马斯克</td>
+                <td class="count">6</td>
+                <td class="percentage">11.54%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3763312" target="_blank" class="news-link">美联储理事米兰为持续降息找到新理由：特朗普政府去监管</a> [7] <font color='grey'>- 04时29分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260115040624036800" target="_blank" class="news-link">美国总统特朗普：泄密委内瑞拉消息的人已被找到，目前身陷囹圄。</a> [7] <font color='grey'>- 04时29分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260115040402898800" target="_blank" class="news-link">油价大幅跳水 特朗普称伊朗的“杀戮”正在停止</a> [9] <font color='grey'>- 04时29分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260115040252991800" target="_blank" class="news-link">美国总统特朗普：已被告知伊朗的“杀戮”正在停止，没有处决计划。</a> [11] <font color='grey'>- 04时29分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260115040151639800" target="_blank" class="news-link">美国总统特朗普签署关键矿物行政命令。</a> [13] <font color='grey'>- 04时29分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260115040150606800" target="_blank" class="news-link">美国总统特朗普：我有一些关于伊朗的消息，我们稍后会谈到。</a> [14] <font color='grey'>- 04时29分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
