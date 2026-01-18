@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 185</p><p>生成时间: 2026-01-19 00:32:07</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">AI 半导体 商业航空 黄金 白银 芯片 算力 科技</td>
+                <td class="count">23</td>
+                <td class="percentage">12.43%</td>
+                <td class="titles"><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1186647" target="_blank" class="news-link">我的客户买了一台一万多的迷你主机拿来跑 Ai! 就离谱了</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 00时32分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/iOfficeAI/AionUi" target="_blank" class="news-link">iOfficeAI / AionUi</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 00时32分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=46666963" target="_blank" class="news-link">Starting from scratch: Training a 30M Topological Transformer</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 00时32分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1186641" target="_blank" class="news-link">我用 AI 开发了一个闲着没事就打开随机学习一个单词的小程序</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 00时32分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3763530" target="_blank" class="news-link">当“AI编程”越来越容易，新浪潮正出现：人人可做的“微应用”和一人顶团队的“超级程序员”</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 00时32分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=46614487" target="_blank" class="news-link">More sustainable epoxy thanks to phosphorus</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 00时32分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1186635" target="_blank" class="news-link">用 AI 纯手工打造一款 macOS 剪贴板管理器</a> [6] <font color='grey'>- 00时32分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1186632" target="_blank" class="news-link">周末 Vibe Coding 了一个 AI 套壳图片生成器，速度快到离谱（&lt; 1s），免登录可试用</a> [8] <font color='grey'>- 00时32分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://www.zaobao.com.sg/realtime/china/story20260118-8118693" target="_blank" class="news-link">港财政司长：香港正加紧推动建立黄金中央结算系统</a> [8] <font color='grey'>- 00时32分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/member/articles/3763491" target="_blank" class="news-link">不仅美国人在用电费给AI买单 全世界现在都在“暗中补贴”AI的发展</a> [8] <font color='grey'>- 00时32分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=46665169" target="_blank" class="news-link">Show HN: Figma-use – CLI to control Figma for AI agents</a> [9] <font color='grey'>- 00时32分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1186621" target="_blank" class="news-link">分享一个 AI 驱动的任务管理小工具</a> [10] <font color='grey'>- 00时32分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3763531" target="_blank" class="news-link">“飙升的电费”成为美国中选焦点，AI数据中心站上“政治火山口”</a> [10] <font color='grey'>- 00时32分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3763537" target="_blank" class="news-link">全球首个GW级算力集群！马斯克宣布xAI旗下Colossus 2投入运行，距离开工建设不到1年！</a> [10] <font color='grey'>- 00时32分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3763530" target="_blank" class="news-link">当“AI编程”越来越容易，新浪潮正出现：人人可做的“微应用”和一人顶团队的“超级程序员”</a> [12] <font color='grey'>- 00时32分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=46668170" target="_blank" class="news-link">AI companies will fail. We can salvage something from the wreckage</a> [13] <font color='grey'>- 00时32分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3763531" target="_blank" class="news-link">“飙升的电费”成为美国中选焦点，AI数据中心站上“政治火山口”</a> [18] <font color='grey'>- 00时32分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1186579" target="_blank" class="news-link">用 rust 开发了一个类似于 claude code 轻量级的 ai code agent</a> [21] <font color='grey'>- 00时32分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/charts/41958443" target="_blank" class="news-link">AI的冲击开始显现</a> [23] <font color='grey'>- 00时32分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=46660543" target="_blank" class="news-link">Raising money fucked me up</a> [27] <font color='grey'>- 00时32分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1186531" target="_blank" class="news-link">最近对 AI 的使用方式发生了挺明显的变化</a> [29] <font color='grey'>- 00时32分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=46668424" target="_blank" class="news-link">Claude Is Taking the AI World by Storm, and Even Non-Nerds Are Blown Away</a> [29] <font color='grey'>- 00时32分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1186523" target="_blank" class="news-link">[分享] 一個人開發的 AI 文字武俠 Engine，試圖解決 MUD 的自由度問題 (註冊送 40 輪)</a> [30] <font color='grey'>- 00时32分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">特朗普 马斯克</td>
+                <td class="count">15</td>
+                <td class="percentage">8.11%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3763532" target="_blank" class="news-link">异军突起！周四与特朗普会面顺利，贝莱德的里德尔竞选美联储主席呼声渐起</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 00时32分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260118224310382800" target="_blank" class="news-link">联合国秘书长古特雷斯：（当被问及特朗普提出的和平委员会倡议时）会员国可以自由组成不同的团体。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 00时32分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260118222345424800" target="_blank" class="news-link">美国财长贝森特：特朗普致力于保障美联储的独立性。我们有四位出色的美联储主席候选人。认为参议院会对这四位候选人的任何一位当选感到满意。</a> [10] <font color='grey'>- 00时32分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260118221815496800" target="_blank" class="news-link">研究员：若吞并格陵兰岛 特朗普将载入史册</a> [11] <font color='grey'>- 00时32分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260118221440040800" target="_blank" class="news-link">美国财长贝森特：最高法院推翻特朗普关税的可能性不大。</a> [12] <font color='grey'>- 00时32分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3763532" target="_blank" class="news-link">异军突起！周四与特朗普会面顺利，贝莱德的里德尔竞选美联储主席呼声渐起</a> [14] <font color='grey'>- 00时32分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260118221318669800" target="_blank" class="news-link">美国财长贝森特：与欧盟的贸易协定尚未敲定。特朗普拥有动用关税的紧急权力。</a> [14] <font color='grey'>- 00时32分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260118221242167800" target="_blank" class="news-link">美国财长贝森特：格陵兰岛对美国国家安全至关重要。美国必须控制该岛。特朗普在这一问题上的做法具有战略考量。</a> [15] <font color='grey'>- 00时32分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260118213302399800" target="_blank" class="news-link">英国右翼政党罕见公开批评特朗普政府</a> [19] <font color='grey'>- 00时32分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3763529" target="_blank" class="news-link">特朗普欲将加沙“和平委员会”模式全球复制，视为“联合国的可能替代机构”</a> [20] <font color='grey'>- 00时32分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260118211330324800" target="_blank" class="news-link">德国财政部长：德国不会屈服于特朗普的威胁</a> [22] <font color='grey'>- 00时32分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://www.dw.com/zh/回应特朗普关税-欧洲8国联合声明-致力捍卫主权/a-75552165" target="_blank" class="news-link">回应特朗普关税 欧洲8国联合声明:致力捍卫主权</a> [23] <font color='grey'>- 00时32分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://www.dw.com/zh/格陵兰计划受阻-特朗普对欧洲8国加征关税/a-75552165" target="_blank" class="news-link">格陵兰计划受阻 特朗普对欧洲8国加征关税</a> [24] <font color='grey'>- 00时32分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://www.zaobao.com.sg/realtime/world/story20260118-8119546" target="_blank" class="news-link">荷兰外长：特朗普因格陵兰威胁加征关税是“敲诈勒索”</a> [27] <font color='grey'>- 00时32分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260118210000996800" target="_blank" class="news-link">加拿大总理卡尼：（当被问及为何接受特朗普的邀请加入加沙和平委员会时）加拿大将尽一切努力解决加沙的苦难。</a> [30] <font color='grey'>- 00时32分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
