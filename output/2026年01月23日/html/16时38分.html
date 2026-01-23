@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 60</p><p>生成时间: 2026-01-23 16:38:37</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">AI 半导体 商业航空 黄金 白银 芯片 算力 科技</td>
+                <td class="count">11</td>
+                <td class="percentage">18.33%</td>
+                <td class="titles"><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=46729368" target="_blank" class="news-link">Proton Spam and the AI Consent Problem</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 16时38分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260123162427826800" target="_blank" class="news-link">现货黄金短线下挫20美元，现报4924.76美元/盎司。现货白银短线下挫0.7美元，现报97.95美元/盎司。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 16时38分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://www.rfi.fr/cn/%E7%BC%A4%E7%BA%B7%E4%B8%96%E7%95%8C/20260123-%E7%A0%94%E7%A9%B6-%E9%A9%AC%E6%96%AF%E5%85%8Bai%E8%81%8A%E5%A4%A9%E6%9C%BA%E5%99%A8%E4%BA%BAgrok-%E7%94%9F%E6%88%90300%E4%B8%87%E5%BC%A0%E4%B8%8D%E9%9B%85%E7%85%A7" target="_blank" class="news-link">研究：马斯克AI聊天机器人Grok 生成300万张不雅照</a> <font color='red'><strong>[2]</strong></font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1187878" target="_blank" class="news-link">业余时间撸了个 AI 绘图衍生工具：让宝宝照秒变跳舞视频，内置 72 小时自动删图隐私机制</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 16时38分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3763993" target="_blank" class="news-link">资金轮动推动美元走软，亚洲股市创纪录高位，白银逼近100，黄金直冲5000</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 16时38分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3764014" target="_blank" class="news-link">云厂商竞逐AI底座</a> [10] <font color='grey'>- 16时38分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3764003" target="_blank" class="news-link">现有路径不通？OpenAI、亚马逊考虑改变大模型训练方式</a> [11] <font color='grey'>- 16时38分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=46671286" target="_blank" class="news-link">A gaming success story: how Warhammer became one of Britain&#x27;s biggest companies</a> [13] <font color='grey'>- 16时38分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/member/articles/3763961" target="_blank" class="news-link">黄金的极限？颠覆美元，重构全球储备体系</a> [14] <font color='grey'>- 16时38分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/ada-2?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">ChartGen AI</a> [15] <font color='grey'>- 16时38分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260123161052401800" target="_blank" class="news-link">金十图示：2026年01月23日（周五）上海黄金交易所市场行情</a> [17] <font color='grey'>- 16时38分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">特朗普 马斯克</td>
+                <td class="count">4</td>
+                <td class="percentage">6.67%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3764016" target="_blank" class="news-link">与特朗普关系回暖，马斯克要重返美国政治舞台？</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 16时38分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3764025" target="_blank" class="news-link">从4周到几天：华尔街读懂“TACO”，特朗普政策试探期明显缩短</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 16时38分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260123162234105800" target="_blank" class="news-link">乌克兰总统泽连斯基：已与美国总统特朗普讨论了用于防空的额外导弹、PAC-3和反导系统，并希望取得积极成果。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 16时38分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260123160742916800" target="_blank" class="news-link">乌克兰总统泽连斯基：正在等待美国总统特朗普，以确定签署安全保障协议的日期和地点。</a> [19] <font color='grey'>- 16时38分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
