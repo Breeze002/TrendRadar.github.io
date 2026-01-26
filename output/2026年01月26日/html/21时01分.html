@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 70</p><p>生成时间: 2026-01-26 21:01:58</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">AI 半导体 商业航空 黄金 白银 芯片 算力 科技</td>
+                <td class="count">14</td>
+                <td class="percentage">20.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3764180" target="_blank" class="news-link">紫金黄金拟55亿加元收购Allied Gold，加速挺进西非核心金矿区</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 21时01分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3764177" target="_blank" class="news-link">欧盟对马斯克X平台展开正式调查：指控Grok AI生成“深伪”图像</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 21时01分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/AI4Finance-Foundation/FinRobot" target="_blank" class="news-link">AI4Finance-Foundation / FinRobot</a> [6]</div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://www3.nhk.or.jp/nhkworld/zh/news/20260126_B3/" target="_blank" class="news-link">纽约商品交易所黄金期货价格首次突破每盎司5000美元大关</a> [7] <font color='grey'>- 21时01分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/business-science/ai-data-science-team" target="_blank" class="news-link">business-science / ai-data-science-team</a> [8]</div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3764155" target="_blank" class="news-link">元宝AI春节10亿红包！马化腾：希望重现当年微信红包盛况</a> [8] <font color='grey'>- 21时01分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260126202903925800" target="_blank" class="news-link">策略师：降息预期减弱及美国关键矿产定位重塑白银定价逻辑</a> [10] <font color='grey'>- 21时01分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3764169" target="_blank" class="news-link">全球首个服务硅基智能体的太空算力网披露：2800颗计算卫星，2035年前完成组网</a> [12] <font color='grey'>- 21时01分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260126202333470800" target="_blank" class="news-link">白银价格短线拉升 纽约期银日内涨9%</a> [12] <font color='grey'>- 21时01分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260126201019066800" target="_blank" class="news-link">美国稀土公司：芯片计划的意向书包括2.77亿美元的资金和13亿美元的贷款。</a> [22] <font color='grey'>- 21时01分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260126200850269800" target="_blank" class="news-link">欧盟委员会收到意大利对“黄金法则”的回应，委员会正在进行评估。</a> [24] <font color='grey'>- 21时01分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260126200818010800" target="_blank" class="news-link">赫克拉矿业(HL.N)：2026年综合黄金产量指引为13.4万至14.6万盎司。</a> [25] <font color='grey'>- 21时01分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260126200737931800" target="_blank" class="news-link">赫克拉矿业(HL.N)：2025年综合黄金产量150,509盎司。</a> [26] <font color='grey'>- 21时01分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260126200502483800" target="_blank" class="news-link">赫克拉矿业(HL.N)：2025年白银产量预计为1700万盎司，同比增长逾5%。2026年综合白银产量指引为1510万至1650万盎司。</a> [30] <font color='grey'>- 21时01分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">特朗普 马斯克</td>
+                <td class="count">2</td>
+                <td class="percentage">2.86%</td>
+                <td class="titles"><div class='new-title'>🆕 [靠谱新闻] <a href="https://www3.nhk.or.jp/nhkworld/zh/news/20260126_04/" target="_blank" class="news-link">特朗普事实上撤回对北约向阿派兵的相关言论</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 21时01分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3764157" target="_blank" class="news-link">特朗普政府将入股美国稀土公司，持股10%涉资16亿美元</a> [9] <font color='grey'>- 21时01分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
