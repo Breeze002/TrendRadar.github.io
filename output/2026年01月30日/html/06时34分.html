@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 62</p><p>生成时间: 2026-01-30 06:34:44</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">AI 半导体 商业航空 黄金 白银 芯片 算力 科技</td>
+                <td class="count">14</td>
+                <td class="percentage">22.58%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3764423" target="_blank" class="news-link">微软AI支出引发忧虑，股价重挫10%拖累美股大盘，金银跳水后反弹，铜油走强</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 06时34分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="http://cn.nikkei.com/politicsaeconomy/commodity/61270-2026-01-30-05-00-31.html" target="_blank" class="news-link">空前的半导体存储器泡沫已经到来？</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 06时34分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3764520" target="_blank" class="news-link">报道：SpaceX与xAI就合并展开讨论，赶在今年可能的IPO之前完成</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 06时34分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=46816539" target="_blank" class="news-link">Retiring GPT-4o, GPT-4.1, GPT-4.1 mini, and OpenAI o4-mini in ChatGPT</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 06时34分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="http://cn.nikkei.com/industry/itelectric-appliance/61159-2026-01-30-05-00-51.html" target="_blank" class="news-link">中国发电增量达美国7倍，左右AI竞争</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 06时34分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3764516" target="_blank" class="news-link">AI推动存储需求爆棚，闪迪业绩大超预期，股价盘后一度涨近15% | 财报见闻</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 06时34分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=46810282" target="_blank" class="news-link">Claude Code daily benchmarks for degradation tracking</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 06时34分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/member/articles/3764510" target="_blank" class="news-link">微软交出完美财报、市值却瞬间蒸发超3000亿 AI泡沫的第一道裂痕出现了</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 06时34分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://www.rfi.fr/cn/%E8%B4%A2%E7%BB%8F%E5%BF%AB%E8%AE%AF/20260129-%E9%BB%84%E9%87%91%E4%BB%B7%E6%A0%BC%E6%80%A5%E6%8C%AB%E9%80%BE5" target="_blank" class="news-link">黄金价格急挫逾5%</a> [6] <font color='grey'>- 06时34分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3764513" target="_blank" class="news-link">报道：亚马逊洽谈对OpenAI投资至多500亿美元</a> [10] <font color='grey'>- 06时34分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260130061125267800" target="_blank" class="news-link">苹果(AAPL.O)CEO库克：客户对AirPods Pro 3反应积极。</a> [10] <font color='grey'>- 06时34分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=46816228" target="_blank" class="news-link">Apple buys Israeli startup Q.ai</a> [22] <font color='grey'>- 06时34分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=46813834" target="_blank" class="news-link">AI&#x27;s impact on engineering jobs may be different than expected</a> [26] <font color='grey'>- 06时34分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260130053408045800" target="_blank" class="news-link">苹果(AAPL.O)CEO库克：AirPods Pro 3第一季度供应受限。</a> [26] <font color='grey'>- 06时34分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">特朗普 马斯克</td>
+                <td class="count">2</td>
+                <td class="percentage">3.23%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3764456" target="_blank" class="news-link">美政府关门危机解除？特朗普与舒默接近达成协议，拆分DHS预算并重谈移民执法限制</a> [10] <font color='grey'>- 06时34分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3764512" target="_blank" class="news-link">美参院关键投票未能推进拨款法案，特朗普称接近达成协议避免政府关门</a> [12] <font color='grey'>- 06时34分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
