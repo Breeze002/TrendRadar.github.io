@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 104</p><p>生成时间: 2026-02-01 14:58:11</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">AI 半导体 商业航空 黄金 白银 芯片 算力 科技</td>
+                <td class="count">13</td>
+                <td class="percentage">12.5%</td>
+                <td class="titles"><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1189900" target="_blank" class="news-link">Moltbook 要把事情高大: AI 机器人的&quot;身份证&quot;来了</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 14时58分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=46842603" target="_blank" class="news-link">List animals until failure</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 14时58分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3764675" target="_blank" class="news-link">微信群、朋友圈重现红包雨 腾讯元宝10亿红包「AI入口战」正式开打</a> <font color='red'><strong>[3]</strong></font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=46840612" target="_blank" class="news-link">In praise of –dry-run</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 14时58分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3764665" target="_blank" class="news-link">中国AI交易：不确定“谁是最终赢家”，押注“AI应用大战”的受益者</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 14时58分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=46840924" target="_blank" class="news-link">Generative AI and Wikipedia editing: What we learned in 2025</a> [6] <font color='grey'>- 14时58分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3764648" target="_blank" class="news-link">马斯克帝国大合并？AI太烧钱，首富也得“翻遍每一个口袋”</a> [8] <font color='grey'>- 14时58分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/charts/41958528" target="_blank" class="news-link">距离AI Agent起诉人类，还有多远？</a> [9] <font color='grey'>- 14时58分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1189878" target="_blank" class="news-link">[分享] 自己做的一个小工具： AI 应用图标生成器</a> [10] <font color='grey'>- 14时58分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3764672" target="_blank" class="news-link">白银跌倒，光伏能否吃饱？</a> [10] <font color='grey'>- 14时58分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1189868" target="_blank" class="news-link">🔥 受够了手动配置 AI Agent Skills？开源了一个 macOS 工具， 25+ Agent 一键搞定</a> [11] <font color='grey'>- 14时58分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3764675" target="_blank" class="news-link">微信群、朋友圈重现红包雨 腾讯元宝10亿红包「AI入口战」正式开打</a> [11]</div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260201134458058800" target="_blank" class="news-link">印度预算案：将为半导体制造业发展增拨4000亿印度卢比。</a> [21] <font color='grey'>- 14时58分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">特朗普 马斯克</td>
+                <td class="count">6</td>
+                <td class="percentage">5.77%</td>
+                <td class="titles"><div class='new-title'>🆕 [靠谱新闻] <a href="https://www.bbc.com/zhongwen/articles/cdxj8x8lwjwo/simp" target="_blank" class="news-link">特朗普提名的美联储新主席沃什能否如他所愿带来改变</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 14时58分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260201141746766800" target="_blank" class="news-link">印尼解除禁令，允许马斯克旗下Grok恢复服务</a> [6] <font color='grey'>- 14时58分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3764667" target="_blank" class="news-link">沃什的三大挑战：美联储、通胀和特朗普</a> [7]</div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://www.bbc.com/zhongwen/articles/czx3ex1x3qro/simp" target="_blank" class="news-link">分析：以色列意在推动伊朗政权更替，并寄望于特朗普</a> [9] <font color='grey'>- 14时58分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3764673" target="_blank" class="news-link">特朗普称美伊正在谈判，伊朗最高领袖顾问：“谈判架构”正在形成</a> [13] <font color='grey'>- 14时58分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/member/articles/3764669" target="_blank" class="news-link">选了沃什后洋洋得意的特朗普 为什么认定了美联储已经是“囊中之物”？</a> [17] <font color='grey'>- 14时58分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
