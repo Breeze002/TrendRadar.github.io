@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 57</p><p>生成时间: 2026-02-12 21:23:05</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">AI 半导体 商业航空 黄金 白银 芯片 算力 科技</td>
+                <td class="count">13</td>
+                <td class="percentage">22.81%</td>
+                <td class="titles"><div class='new-title'>🆕 [GitHub] <a href="https://github.com/tambo-ai/tambo" target="_blank" class="news-link">tambo-ai / tambo</a> <font color='red'><strong>[1]</strong></font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3765603" target="_blank" class="news-link">最坏情景下的甲骨文：AI订单全失，股价只跌15%？</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 21时23分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1192550" target="_blank" class="news-link">AI 界域名爆火啊 ai.com、z.ai、cai.com 大家觉得哪个更叼？</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 21时23分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/danielmiessler/Personal_AI_Infrastructure" target="_blank" class="news-link">danielmiessler / Personal_AI_Infrastructure</a> <font color='red'><strong>[2]</strong></font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1192539" target="_blank" class="news-link">做了个可以针对 JD 做分析和改简历的 AI 简历工具，求建议</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 21时23分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3765606" target="_blank" class="news-link">全球市场“巨变”：“实体”回归，“科技”分化</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 21时23分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=46987559" target="_blank" class="news-link">AI agent opens a PR write a blogpost to shames the maintainer who closes it</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 21时23分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3765608" target="_blank" class="news-link">AI债务泡沫初现端倪？分析师警告：Alphabet发行百年期债券或为市场“见顶”信号</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 21时23分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/iOfficeAI/AionUi" target="_blank" class="news-link">iOfficeAI / AionUi</a> [6]</div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260212210004522800" target="_blank" class="news-link">俄罗斯至2月6日当周央行黄金和外汇储备 7975亿美元，前值8268亿美元。</a> [8] <font color='grey'>- 21时23分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/unslothai/unsloth" target="_blank" class="news-link">unslothai / unsloth</a> [10]</div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3765558" target="_blank" class="news-link">中国大模型“春节档”打响！等待消费级AI出“爆款”</a> [10]</div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260212205501194800" target="_blank" class="news-link">沙特皇家法令：任命阿勒赛义夫（Fahd Bin Abduljalil Bin Ali Al Saif）为新任投资大臣。</a> [12] <font color='grey'>- 21时23分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">特朗普 马斯克</td>
+                <td class="count">1</td>
+                <td class="percentage">1.75%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3765571" target="_blank" class="news-link">“发展速度太快了”！马斯克点赞Seedance 2.0，字节称“还远不完美”</a> [9] <font color='grey'>- 21时23分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
