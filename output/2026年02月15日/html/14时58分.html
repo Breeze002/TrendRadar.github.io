@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 90</p><p>生成时间: 2026-02-15 14:58:34</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">AI 半导体 商业航空 黄金 白银 芯片 算力 科技</td>
+                <td class="count">14</td>
+                <td class="percentage">15.56%</td>
+                <td class="titles"><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=47020191" target="_blank" class="news-link">I love the work of the ArchWiki maintainers</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 14时58分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3765753" target="_blank" class="news-link">“SaaS已死，SaaS到来”！Altman预言“全AI企业”时代开启</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 14时58分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260215143658837800" target="_blank" class="news-link">塔吉克斯坦据悉拟推出黄金ATM机服务</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 14时58分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1192762" target="_blank" class="news-link">[小工具]明天就是情人节了，用 AI 10 分钟做了一个情话生成器，在线就能玩</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 14时58分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3765750" target="_blank" class="news-link">每千次展示60美元！OpenAI用高价拉开“AI广告”大幕</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 14时58分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1192921" target="_blank" class="news-link">[分享] 致敬经典！把 win11 任务栏变回小图标，纯 AI 撸的，一行代码都没写。</a> [6] <font color='grey'>- 14时58分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3765753" target="_blank" class="news-link">“SaaS已死，SaaS到来”！Altman预言“全AI企业”时代开启</a> [7] <font color='grey'>- 14时58分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1192913" target="_blank" class="news-link">Koharu: 用 Rust + Tauri 写了一个本地 AI 漫画翻译器，现已支持 MCP 协议 (让 AI 帮你啃生肉)</a> [9] <font color='grey'>- 14时58分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3765746" target="_blank" class="news-link">影响万亿资本的市场叙事争夺：一边是“AI颠覆一切”，一边是“AI回报不够”</a> [9] <font color='grey'>- 14时58分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3765739" target="_blank" class="news-link">群核科技拿下境外备案，“杭州六小龙”首家上市公司渐近</a> [10] <font color='grey'>- 14时58分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/member/articles/3762682" target="_blank" class="news-link">OpenAI能跨过“债务魔咒”？这是2026年最有悬念的疑问</a> [10] <font color='grey'>- 14时58分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3765746" target="_blank" class="news-link">影响万亿资本的市场叙事争夺：一边是“AI颠覆一切”，一边是“AI回报不够”</a> [12] <font color='grey'>- 14时58分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=47020791" target="_blank" class="news-link">Guitars of the USSR and the Jolana Special in Azerbaijani Music</a> [21] <font color='grey'>- 14时58分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=47019133" target="_blank" class="news-link">Show HN: Off Grid – Run AI text, image gen, vision offline on your phone</a> [25] <font color='grey'>- 14时58分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">特朗普 马斯克</td>
+                <td class="count">4</td>
+                <td class="percentage">4.44%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260215144003417800" target="_blank" class="news-link">马斯克：Grok 4.20版本将于下周发布。相较于4.1版本，此次更新将带来显著改进。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 14时58分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260215135912358800" target="_blank" class="news-link">被特朗普恶搞成猿猴 奥巴马首次回应</a> [9] <font color='grey'>- 14时58分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260215134542489800" target="_blank" class="news-link">马斯克预言：2026年底编程或将全面自动化</a> [12] <font color='grey'>- 14时58分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3765745" target="_blank" class="news-link">王毅最新表态：特朗普总统十分尊重习近平主席，也尊重中国人民，中美关系的前景是光明的</a> [14] <font color='grey'>- 14时58分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
