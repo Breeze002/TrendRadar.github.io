@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 89</p><p>生成时间: 2026-02-16 15:12:36</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">AI 半导体 商业航空 黄金 白银 芯片 算力 科技</td>
+                <td class="count">19</td>
+                <td class="percentage">21.35%</td>
+                <td class="titles"><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=47028013" target="_blank" class="news-link">I’m joining OpenAI</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 15时12分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3765773" target="_blank" class="news-link">AI热潮助力港股蛇年收官战告捷，MiniMax暴涨25%、智谱涨4.74%齐创新高，有色板块拉升</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 15时12分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3765777" target="_blank" class="news-link">存储芯片，走向失控</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 15时12分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3765773" target="_blank" class="news-link">AI热潮助力港股蛇年收官战告捷，MiniMax暴涨25%、智谱涨4.74%齐创新高，有色板块拉升</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 15时12分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3765774" target="_blank" class="news-link">AI圈内人士：AI处于自我进化的临界点，人们还懵懂不知</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 15时12分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1192995" target="_blank" class="news-link">做了一个科技爱好者周刊招人服务的统计</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 15时12分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1192987" target="_blank" class="news-link">做了一个中文 AI 工具评测站 aitoolcn.com， 20+ 款工具亲测对比</a> [7] <font color='grey'>- 15时12分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3765772" target="_blank" class="news-link">OpenClaw创始人加入OpenAI，目标“开发一款连我妈妈都能用的AI助手”</a> [8] <font color='grey'>- 15时12分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3765769" target="_blank" class="news-link">美股财报电话会现状：“AI风险”讨论翻倍，公司必须“自证清白”，投资者“先卖再问”</a> [8] <font color='grey'>- 15时12分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1192983" target="_blank" class="news-link">OpenClaw 作者加入 OpenAI，但安全问题依然存在： ClawShell 的解法</a> [9] <font color='grey'>- 15时12分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3765772" target="_blank" class="news-link">OpenClaw创始人加入OpenAI，目标“开发一款连我妈妈都能用的AI助手”</a> [9] <font color='grey'>- 15时12分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=46976256" target="_blank" class="news-link">Databases should contain their own Metadata – Use SQL Everywhere</a> [10] <font color='grey'>- 15时12分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3765768" target="_blank" class="news-link">行业首例！国投白银LOF估值调整补偿方案出炉：1000元以下损失全额补偿</a> [10] <font color='grey'>- 15时12分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3765771" target="_blank" class="news-link">印度贡献1亿“周活跃用户”，占OpenAI活跃用户数1/8，仅次于美国</a> [10] <font color='grey'>- 15时12分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/charts/41958606" target="_blank" class="news-link">开启AI大时代的一封邮件--马斯克发给黄仁勋</a> [12] <font color='grey'>- 15时12分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260216140321167800" target="_blank" class="news-link">智谱：因全球范围内对GLM-5的需求激增 全网寻找“算力合伙人”</a> [12] <font color='grey'>- 15时12分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=46977678" target="_blank" class="news-link">I Love Board Games: A Personal Obsession Explained by Psychology</a> [15] <font color='grey'>- 15时12分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3765768" target="_blank" class="news-link">行业首例！国投白银LOF估值调整补偿方案出炉：1000元以下损失全额补偿</a> [15] <font color='grey'>- 15时12分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260216130406843800" target="_blank" class="news-link">现货黄金延续跌势，跌破4970美元/盎司，日内跌1.53%。</a> [30] <font color='grey'>- 15时12分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">特朗普 马斯克</td>
+                <td class="count">3</td>
+                <td class="percentage">3.37%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3765770" target="_blank" class="news-link">美媒：若美伊谈判失败 特朗普支持以色列空袭伊朗弹道导弹设施</a> [13]</div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/charts/41958605" target="_blank" class="news-link">对待马斯克的预测，中国人比西方更认真</a> [14] <font color='grey'>- 15时12分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260216131526064800" target="_blank" class="news-link">涉特朗普政府政策，希拉里与捷克副总理上演言语冲突</a> [26] <font color='grey'>- 15时12分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
