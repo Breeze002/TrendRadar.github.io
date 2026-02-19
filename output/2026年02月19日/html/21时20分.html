@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 60</p><p>生成时间: 2026-02-19 21:20:37</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">AI 半导体 商业航空 黄金 白银 芯片 算力 科技</td>
+                <td class="count">9</td>
+                <td class="percentage">15.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=47038032" target="_blank" class="news-link">Don&#x27;t Trust the Salt: AI Summarization, Multilingual Safety, and LLM Guardrails</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 21时20分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3765856" target="_blank" class="news-link">科技股拖累美股期指转跌，特斯拉盘前领跌Mag7，地缘局势升温推高金银油，黄金站上5000美元</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 21时20分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1193251" target="_blank" class="news-link">博弈圆桌 -- 让 AI 分身替你谈判，三轮博弈自动达成共识</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 21时20分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1193245" target="_blank" class="news-link">MeetSpot - 开源多人聚会地点推荐 AI Agent，球面几何算中点 + GPT-4o 评分</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 21时20分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3765856" target="_blank" class="news-link">科技股拖累美股期指转跌，特斯拉盘前领跌Mag7，地缘局势升温推高金银油，黄金站上5000美元</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 21时20分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3765873" target="_blank" class="news-link">三星电子股价飙至历史新高！报道：公司HBM4芯片拟大幅提价30%</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 21时20分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3765860" target="_blank" class="news-link">什么样的软件会被AI淘汰？</a> [9] <font color='grey'>- 21时20分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260219210005468800" target="_blank" class="news-link">俄罗斯至2月13日当周央行黄金和外汇储备 8061亿美元，前值7975亿美元。</a> [10] <font color='grey'>- 21时20分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=47067395" target="_blank" class="news-link">What years of production-grade concurrency teaches us about building AI agents</a> [29] <font color='grey'>- 21时20分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">特朗普 马斯克</td>
+                <td class="count">5</td>
+                <td class="percentage">8.33%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3765874" target="_blank" class="news-link">对于伊朗和油价，特朗普是“自信过头”还是“姿态做足”？</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 21时20分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260219205710816800" target="_blank" class="news-link">在特朗普推动和平计划之际，哈马斯加大对加沙的控制</a> [11] <font color='grey'>- 21时20分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260219205124822800" target="_blank" class="news-link">特朗普的加沙和平计划恐陷入僵局 哈马斯是否放下武器成为焦点</a> [13] <font color='grey'>- 21时20分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260219204541105800" target="_blank" class="news-link">市场消息：美国总统特朗普要求孟加拉国总理完成“例行国防”协议。</a> [14] <font color='grey'>- 21时20分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260219202807714800" target="_blank" class="news-link">美国总统特朗普：在美国大选中我只想要美国人投票。</a> [20] <font color='grey'>- 21时20分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
