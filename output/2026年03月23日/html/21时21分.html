@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 107</p><p>生成时间: 2026-03-23 21:21:45</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特朗普 马斯克</td>
+                <td class="count">10</td>
+                <td class="percentage">9.35%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3768172" target="_blank" class="news-link">称伊对话“富有成效”，特朗普“推迟5天”打击伊朗发电站，伊朗断然否认</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 21时21分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3768183" target="_blank" class="news-link">美媒称美伊通过三国外长传话，特朗普称美伊或在5天内达成协议</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 21时21分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/member/articles/3768164" target="_blank" class="news-link">欧盟重申不恢复进口俄油，特朗普面临财政、通胀、民调压力，全球央行鹰派推动美债上行---0323宏观脱水</a> [6] <font color='grey'>- 21时21分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3768172" target="_blank" class="news-link">称伊对话“富有成效”，特朗普“推迟5天”打击伊朗发电站，伊朗断然否认</a> [10] <font color='grey'>- 21时21分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260323210553439800" target="_blank" class="news-link">德国总理默茨：已向美国总统特朗普表达了对袭击伊朗核电站的担忧。</a> [10] <font color='grey'>- 21时21分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260323210450035800" target="_blank" class="news-link">德国总理默茨：周日晚间曾与美国总统特朗普通话，阐述了对伊朗局势的担忧。</a> [12] <font color='grey'>- 21时21分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://www.zaobao.com.sg/news/world/story20260323-8779343" target="_blank" class="news-link">特朗普暂缓军事行动 以色列对德黑兰发动打击</a> [13] <font color='grey'>- 21时21分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://www.zaobao.com.sg/news/world/story20260323-8779285" target="_blank" class="news-link">特朗普称美伊对话富有成效 军事行动推迟五天</a> [21] <font color='grey'>- 21时21分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260323205835003800" target="_blank" class="news-link">美国总统特朗普：不希望联邦移民与海关执法局特工在机场戴口罩。但我非常支持美国移民海关执法局在搜捕和处理悍匪时佩戴口罩，其中许多罪犯是由“瞌睡拜登”和他那位了不起的“边境沙皇”哈里斯通过他们极其疯狂的开放边境政策放进我们国家的。</a> [21] <font color='grey'>- 21时21分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260323205648184800" target="_blank" class="news-link">新兴市场货币指数在特朗普就伊朗问题发表最新言论后进一步扩大涨幅。</a> [24] <font color='grey'>- 21时21分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">AI 半导体 商业航空 黄金 白银 芯片 算力 科技</td>
+                <td class="count">9</td>
+                <td class="percentage">8.41%</td>
+                <td class="titles"><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=47487584" target="_blank" class="news-link">GitHub appears to be struggling with measly three nines availability</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 21时21分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://www.yicai.com/news/103100406.html" target="_blank" class="news-link">AI进化速递丨MiniMax发布全球首个支持全模态模型的订阅计划Token Plan</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 21时21分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260323210729579800" target="_blank" class="news-link">黄金极端瀑布！空头趋势还在吗？哪里才是底？金十VIP正在讲解趋势，立即观看&gt;&gt;&lt;font class=&quot;important-text&quot;&gt;&lt;/font&gt;</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 21时21分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1200506" target="_blank" class="news-link">Transformer 架构的影响力会成功类似冯诺依曼架构一样，奠定 AI 初阶时代吗</a> [10] <font color='grey'>- 21时21分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1200503" target="_blank" class="news-link">如何评价 AI 自动生成架构图？分享一个我开发的生产力工具 ArchGen</a> [11] <font color='grey'>- 21时21分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3768170" target="_blank" class="news-link">一分钟通话录音0.5美元，人类正在把生活“卖给”AI</a> [15] <font color='grey'>- 21时21分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260323210018024800" target="_blank" class="news-link">VIP·9折解锁黄金异动雷达</a> [17] <font color='grey'>- 21时21分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3768174" target="_blank" class="news-link">两周狂泻1000美元，年内涨幅清零，黄金还没跌到位？</a> [21] <font color='grey'>- 21时21分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://www.cna.com.tw/news/afe/202603230280.aspx" target="_blank" class="news-link">鸿海新加坡子公司再投资墨西哥 扩AI伺服器产线</a> [22]</div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
