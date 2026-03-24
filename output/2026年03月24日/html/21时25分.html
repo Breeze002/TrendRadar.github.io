@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 66</p><p>生成时间: 2026-03-24 21:25:39</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">AI 半导体 商业航空 黄金 白银 芯片 算力 科技</td>
+                <td class="count">12</td>
+                <td class="percentage">18.18%</td>
+                <td class="titles"><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=47501729" target="_blank" class="news-link">LiteLLM Python package compromised by supply-chain attack</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 21时25分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3768281" target="_blank" class="news-link">伯恩斯坦“泼冷水”：马斯克超级芯片工厂需5-13万亿美元资本开支，&quot;比登陆火星还难&quot;</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 21时25分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3768278" target="_blank" class="news-link">SemiAnalysis GTC深度解读：三款新系统背后，英伟达正在重新定义AI基础设施的边界</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 21时25分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/supermemoryai/supermemory" target="_blank" class="news-link">supermemoryai / supermemory</a> <font color='red'><strong>[3]</strong></font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3768271" target="_blank" class="news-link">动用黄金储备！土耳其里拉保卫战升级，拟开启金汇兑换应对战争冲击</a> [6] <font color='grey'>- 21时25分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260324211538286800" target="_blank" class="news-link">VIP·9折解锁黄金异动雷达</a> [7] <font color='grey'>- 21时25分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1200807" target="_blank" class="news-link">把 GPT Plus 订阅 OAuth 塞进 Typora：开源插件支持 GPT Plus 订阅账号 OAuth 登录，实现真·原生 AI 编辑</a> [10] <font color='grey'>- 21时25分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3768269" target="_blank" class="news-link">小米媒体电话会：2026年研发投入预超400亿元，反对将AI手机概念化，若内存涨价超预期，不排除涨价可能</a> [10] <font color='grey'>- 21时25分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3768270" target="_blank" class="news-link">沪电股份2025年营收增长42%，净利增47.74%，AI交换机业务翻倍领跑｜财报见闻</a> [11] <font color='grey'>- 21时25分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260324211028707800" target="_blank" class="news-link">印度将阿联酋黄金进口授权延长至6月30日</a> [12] <font color='grey'>- 21时25分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260324210557401800" target="_blank" class="news-link">存储芯片巨头豪掷15亿美元，签下“保供”长单！| 盘后公告精选</a> [17] <font color='grey'>- 21时25分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260324205647994800" target="_blank" class="news-link">公告显示：印度已将《印度-阿联酋全面经济伙伴关系协定》框架下的黄金进口关税配额授权有效期延长至6月30日。</a> [26] <font color='grey'>- 21时25分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">特朗普 马斯克</td>
+                <td class="count">2</td>
+                <td class="percentage">3.03%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260324211042269800" target="_blank" class="news-link">据纽约时报：沙特王子在最近的会谈中向美国总统特朗普转达了信息。</a> [11] <font color='grey'>- 21时25分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260324210819834800" target="_blank" class="news-link">美媒：沙特王储敦促特朗普继续对伊战争</a> [14] <font color='grey'>- 21时25分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
