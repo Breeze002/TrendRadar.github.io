@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 54</p><p>生成时间: 2026-04-07 03:10:35</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特朗普 马斯克</td>
+                <td class="count">20</td>
+                <td class="percentage">37.04%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3769329" target="_blank" class="news-link">特朗普称可一夜就击溃伊朗、或是7日晚，三大美股指“闪跌”，原油涨幅扩大</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 03时10分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260407025810321800" target="_blank" class="news-link">特朗普称4小时内可摧毁伊朗桥梁和发电厂</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 03时10分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3769330" target="_blank" class="news-link">特朗普公布营救飞行员细节：调集百余架各类航空器、实施欺骗作战，正搜寻媒体泄密者</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 03时10分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3769328" target="_blank" class="news-link">特朗普称伊朗的停战回应还不够好、由他选择会“拿走石油”，重申7日是最终期限</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 03时10分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3769328" target="_blank" class="news-link">特朗普称伊朗的停战回应还不够好、由他选择会“拿走石油”，重申7日是最终期限</a> [10] <font color='grey'>- 03时10分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260407024258088800" target="_blank" class="news-link">马斯克：特斯拉(TSLA.O)的自动驾驶技术拯救了众多生命——相关数据无可争辩地证明了这一点。当然，这并不意味着它就是完美的。即使我们将安全性提升10倍，挽救了每年因车祸丧生的100万人中的90%，特斯拉仍会因那10%的遇难者而面临诉讼。而那90%幸存者中，大多数人甚至都不会知道是特斯拉救了他们。尽管如此，（自动驾驶技术）这是正确的事情。</a> [12] <font color='grey'>- 03时10分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260407023407032800" target="_blank" class="news-link">金十提示：美国总统特朗普在白宫的新闻发布会结束。</a> [16] <font color='grey'>- 03时10分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260407023333995800" target="_blank" class="news-link">美国总统特朗普：美国想要格陵兰岛，但他们不愿把它交给我们。</a> [17] <font color='grey'>- 03时10分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260407023312286800" target="_blank" class="news-link">美国总统特朗普：北约秘书长吕特周三将来见我。北约秘书长很棒。</a> [18] <font color='grey'>- 03时10分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260407023219089800" target="_blank" class="news-link">美国总统特朗普：沙特阿拉伯、卡塔尔、阿联酋一直帮助美国。</a> [19] <font color='grey'>- 03时10分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260407023151889800" target="_blank" class="news-link">美国总统特朗普：我不想摧毁伊朗的基础设施。我们最不想做的就是重建发电厂。</a> [20] <font color='grey'>- 03时10分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260407023108804800" target="_blank" class="news-link">美国总统特朗普：美国可以协助伊朗重建。</a> [21] <font color='grey'>- 03时10分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260407023104678800" target="_blank" class="news-link">美国总统特朗普：北约极力不愿提供帮助。</a> [22] <font color='grey'>- 03时10分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260407023039176800" target="_blank" class="news-link">美国总统特朗普：韩国、澳大利亚和日本没有帮助美国。</a> [23] <font color='grey'>- 03时10分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260407023024141800" target="_blank" class="news-link">美国总统特朗普：北约是纸老虎，普京并不怕北约，他怕的是我们。</a> [24] <font color='grey'>- 03时10分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260407022959140800" target="_blank" class="news-link">美国总统特朗普：伊朗唯一能够重建基础设施的途径就是得到美国的帮助。</a> [25] <font color='grey'>- 03时10分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260407022848831800" target="_blank" class="news-link">美国总统特朗普：在伊朗方面退缩之前，双方曾一度非常接近达成协议。</a> [26] <font color='grey'>- 03时10分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260407022811906800" target="_blank" class="news-link">美国总统特朗普：若到12点仍未能达成协议，所有桥梁、发电厂都将被摧毁。</a> [27] <font color='grey'>- 03时10分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260407022804639800" target="_blank" class="news-link">美国总统特朗普：伊朗的所有桥梁都将在周二午夜被摧毁；所有发电厂将在午夜前停运。如果与伊朗未能达成协议，所有发电厂将被拆除。我们不希望那件事发生。</a> [28] <font color='grey'>- 03时10分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260407022648134800" target="_blank" class="news-link">美国总统特朗普：伊朗协议的一部分必须包括在霍尔木兹海峡的自由通行。</a> [29] <font color='grey'>- 03时10分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">AI 半导体 商业航空 黄金 白银 芯片 算力 科技</td>
+                <td class="count">4</td>
+                <td class="percentage">7.41%</td>
+                <td class="titles"><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1203869" target="_blank" class="news-link">类似 CDN 一样的 AI AGENT 硬件能不能玩得转呢？</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 03时10分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1203866" target="_blank" class="news-link">做了个支持 CLI 和 AI Agent 的微信公众号编辑器，开源了</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 03时10分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=47663147" target="_blank" class="news-link">Launch HN: Freestyle: Sandboxes for AI Coding Agents</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 03时10分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1203867" target="_blank" class="news-link">拿 ai studio 的免费额度用做龙虾，容易被封吗？</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 03时10分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
