@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 76</p><p>生成时间: 2026-04-15 21:52:28</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">AI 半导体 商业航空 黄金 白银 芯片 算力 科技</td>
+                <td class="count">14</td>
+                <td class="percentage">18.42%</td>
+                <td class="titles"><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1206185" target="_blank" class="news-link">Google aistudio 做这种 C 端设计太强了, SBTI 几个小时的成果欢迎大家品鉴</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 21时52分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3770007" target="_blank" class="news-link">谈判曙光提振市场，美股高开，阿斯麦跌3%，黄金重回4800美元，布油转跌</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 21时52分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1206181" target="_blank" class="news-link">我做了一个让 AI 不调用任何 API，直接本地生成图片的开源 CLI ，只有几百 KB</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 21时52分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3770054" target="_blank" class="news-link">AI 精神病的巅峰：Claude Mythos 和 OpenAI Spud 还没上线，就有人度假都睡不着了</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 21时52分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1206174" target="_blank" class="news-link">用 AI 搓了一个语音输入法 sayany，支持豆包在线/离线模型， Vibe Coding 效率翻倍</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 21时52分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3770007" target="_blank" class="news-link">谈判曙光提振市场，美股高开，阿斯麦跌3%，黄金重回4800美元，布油转跌</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 21时52分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=47778617" target="_blank" class="news-link">MCP as Observability Interface: Connecting AI Agents to Kernel Tracepoints</a> [6] <font color='grey'>- 21时52分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3770049" target="_blank" class="news-link">特斯拉AI芯片里程碑！马斯克官宣AI5成功流片，双芯性能对标Blackwell</a> [6] <font color='grey'>- 21时52分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3770048" target="_blank" class="news-link">AI算力军备竞赛再度升温，华尔街量化巨头Jane Street斥资10亿入股CoreWeave</a> [7] <font color='grey'>- 21时52分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1206164" target="_blank" class="news-link">许久没有登录了，现在登录上来全是 AI 话题</a> [10] <font color='grey'>- 21时52分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260415213245498800" target="_blank" class="news-link">美股开盘，道指涨0.22%，标普500指数涨0.13%，纳指涨0.18%，博通(AVGO.O)股价上涨1.4%，因其与Meta公司延长了定制芯片协议，阿斯麦(ASML.O)开跌3%。</a> [13] <font color='grey'>- 21时52分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260415212559890800" target="_blank" class="news-link">同兴科技：以0元对价收购安徽巴芒持有的公司控股子公司同兴皓升31.97%股权</a> [16] <font color='grey'>- 21时52分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260415212423038800" target="_blank" class="news-link">技术刘Pro：国际现货黄金筹码分散方向未明，等待成交稀疏点的博弈结果</a> [17] <font color='grey'>- 21时52分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=47708627" target="_blank" class="news-link">Pretty Fish: A better mermaid diagram editor</a> [18] <font color='grey'>- 21时52分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">特朗普 马斯克</td>
+                <td class="count">2</td>
+                <td class="percentage">2.63%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3770050" target="_blank" class="news-link">特朗普：鲍威尔若届满不走就解雇，沃什上任后利率可能会下降</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 21时52分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3770032" target="_blank" class="news-link">谈判重启前美国向伊朗施压：数千士兵增派中东，特朗普保留“所有选项”！</a> [9] <font color='grey'>- 21时52分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
