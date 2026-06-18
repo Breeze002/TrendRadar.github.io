@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 160</p><p>生成时间: 2026-06-18 18:39:02</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">AI 半导体 商业航空 黄金 白银 芯片 算力 科技</td>
+                <td class="count">34</td>
+                <td class="percentage">21.25%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3775015" target="_blank" class="news-link">芯片股太拥挤了！摩根大通警告：一旦VaR触发“被动砍仓”，AI交易或现踩踏式回调</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 18时39分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3775012" target="_blank" class="news-link">半导体扩产全面提速，晶圆设备周期迎来重估！</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 18时39分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/veloce-ai?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">VELOCE AI</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 18时39分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3775011" target="_blank" class="news-link">智谱与MiniMax两级分化！市场出现AI大模型“多空配对交易”</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 18时39分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3774963" target="_blank" class="news-link">风险偏好重燃，美股盘前半导体股大涨，英特尔涨近9%，日元创近两年新低，黄金向上触及4300美元</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 18时39分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3775010" target="_blank" class="news-link">72家公司一夜集体预警：A股AI炒作到了哪个阶段？</a> [6] <font color='grey'>- 18时39分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/snapp-ai?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Snapp AI</a> [7] <font color='grey'>- 18时39分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3774914" target="_blank" class="news-link">黄金和AI：谁在见顶？</a> [7] <font color='grey'>- 18时39分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3774970" target="_blank" class="news-link">创业板、科创50齐创新高，算力硬件、半导体再爆发，恒指跌超1%，智谱狂飙26%、六天翻倍</a> [7] <font color='grey'>- 18时39分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260618180816731800" target="_blank" class="news-link">信披多次违规持续发酵，国晟科技股价跌停，公司回应</a> [8] <font color='grey'>- 18时39分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3774939" target="_blank" class="news-link">沃什“首秀”美联储放鹰，三大美股指转跌，美元拉升，美债黄金跳水</a> [9] <font color='grey'>- 18时39分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3775009" target="_blank" class="news-link">车圈尽头是 AI，李想先一步到了路口</a> [9] <font color='grey'>- 18时39分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260618180715841800" target="_blank" class="news-link">央地共建粤港澳大湾区国际科技创新中心工作推进会举行</a> [10] <font color='grey'>- 18时39分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=48581489" target="_blank" class="news-link">The Australian Government to Require SMS/MMS Sender ID Registraion</a> [12] <font color='grey'>- 18时39分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3775007" target="_blank" class="news-link">让AI走进千家万户，17项举措推进“人工智能+消费”发展</a> [12] <font color='grey'>- 18时39分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://kaopu.news/story/2026-06-18/%E4%B8%8A%E6%B5%B7%E5%9B%BD%E9%99%85%E7%94%B5%E5%BD%B1%E8%8A%82%E8%81%9A%E7%84%A6%E5%B8%82%E5%9C%BA%E5%9B%B0%E5%A2%83%E4%B8%8Eai%E5%B7%A5%E4%B8%9A%E5%8C%96%E6%94%BB%E5%9D%9A-41e3df" target="_blank" class="news-link">上海国际电影节聚焦市场困境与AI工业化攻坚</a> [13] <font color='grey'>- 18时39分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260618180502375800" target="_blank" class="news-link">北自科技：公司聚焦产业化落地，未生产人形机器人本体及零部件</a> [13] <font color='grey'>- 18时39分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://kaopu.news/story/2026-06-18/%E7%BE%8E%E5%9B%BD%E9%A6%96%E6%AC%A1%E5%8A%A8%E7%94%A8%E5%87%BA%E5%8F%A3%E7%AE%A1%E5%88%B6%E9%99%90%E5%88%B6ai%E6%A8%A1%E5%9E%8B%E8%BE%93%E5%87%BA-4d6eaa" target="_blank" class="news-link">美国首次动用出口管制限制AI模型输出</a> [14] <font color='grey'>- 18时39分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/growday?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">GrowDay: Habit Tracker &amp; Daily Goals</a> [15] <font color='grey'>- 18时39分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://kaopu.news/story/2026-06-18/%E9%99%86%E5%AE%B6%E5%98%B4%E8%AE%BA%E5%9D%9B%E8%81%9A%E7%84%A6%E7%A7%91%E6%8A%80%E5%88%9B%E6%96%B0-%E5%BB%BA%E8%A1%8C%E7%A7%B0%E5%B0%86%E5%89%8D%E7%9E%BB%E5%B8%83%E5%B1%80%E9%87%8F%E5%AD%90%E7%A7%91%E6%8A%80-9bf1d3" target="_blank" class="news-link">陆家嘴论坛聚焦科技创新 建行称将前瞻布局量子科技</a> [16] <font color='grey'>- 18时39分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3775004" target="_blank" class="news-link">AI之外，还能买什么？</a> [16] <font color='grey'>- 18时39分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/charts/41959263" target="_blank" class="news-link">贝索斯的野心：让AI成为工程师，加速建造现实世界，10年变1年</a> [17] <font color='grey'>- 18时39分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/brainflip-kids?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">BrainFlip Kids</a> [18] <font color='grey'>- 18时39分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://kaopu.news/story/2026-06-18/%E7%BE%8E%E4%BC%8A%E5%81%9C%E6%88%98%E4%BC%A0%E9%97%BB%E6%8E%A8%E5%8A%A8%E7%99%BD%E9%93%B6%E9%93%82%E9%87%91%E4%BB%B7%E6%A0%BC%E9%A3%99%E5%8D%87-127a79" target="_blank" class="news-link">美伊停战传闻推动白银铂金价格飙升</a> [18] <font color='grey'>- 18时39分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3774995" target="_blank" class="news-link">特朗普：苹果将与英特尔合作在美国生产芯片</a> [19] <font color='grey'>- 18时39分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1221349" target="_blank" class="news-link">AI 内容创作与自动获客系统招募渠道商</a> [20] <font color='grey'>- 18时39分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3775001" target="_blank" class="news-link">大盘涨了账户却亏了？理财通线上私享会带你读透芯片+商业航天两大核心方向</a> [20] <font color='grey'>- 18时39分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1221347" target="_blank" class="news-link">一个人做了个 AI 建站工具， 3 个月的数据复盘</a> [22] <font color='grey'>- 18时39分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1221330" target="_blank" class="news-link">MD Preview 全平台上线：一个给 AI 生成 Markdown 文档用的本地预览器</a> [26] <font color='grey'>- 18时39分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=48579913" target="_blank" class="news-link">AI Compute Extensions (ACE) Specification</a> [26] <font color='grey'>- 18时39分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3774993" target="_blank" class="news-link">当微软都烧不起Token了，“模型路由”成为企业AI的“核心需求”</a> [26] <font color='grey'>- 18时39分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1221329" target="_blank" class="news-link">你们用啥 ai 编程工具可以当生产力?</a> [27] <font color='grey'>- 18时39分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1221328" target="_blank" class="news-link">AI coding 时代， test case 测试用例的价值如何评估？</a> [28] <font color='grey'>- 18时39分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://kaopu.news/story/2026-06-18/%E9%95%BF%E9%91%AB%E7%A7%91%E6%8A%80%E7%A7%91%E5%88%9B%E6%9D%BFipo%E8%BF%87%E4%BC%9A-%E6%8B%9F%E5%8B%9F%E8%B5%84295%E4%BA%BF%E5%85%83-9d5af4" target="_blank" class="news-link">长鑫科技科创板IPO过会 拟募资295亿元</a> [29] <font color='grey'>- 18时39分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">特朗普 马斯克</td>
+                <td class="count">6</td>
+                <td class="percentage">3.75%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260618181153047800" target="_blank" class="news-link">金十数据整理：特朗普过去24小时都忙了什么？（2026-06-18）</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 18时39分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://kaopu.news/story/2026-06-18/%E7%89%B9%E6%9C%97%E6%99%AE%E8%BD%AC%E5%8F%91%E5%B7%B4%E6%80%BB%E7%90%86%E6%8E%A8%E6%96%87%E7%BE%8E%E4%BC%8A%E5%8D%8F%E8%AE%AE%E7%AD%BE%E7%BD%B2%E6%97%B6%E9%97%B4%E5%AE%9A%E4%BA%8E6%E6%9C%8819%E6%97%A5-bdd591" target="_blank" class="news-link">特朗普转发巴总理推文，美伊协议签署时间定于6月19日</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 18时39分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3774946" target="_blank" class="news-link">特朗普：美联储按兵不动也还行，加息难以置信但可能发生，相信沃什</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 18时39分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3774952" target="_blank" class="news-link">为美伊协议辩护，特朗普称“不想看到经济灾难”，不想做“导致1929年崩盘的胡佛”</a> [6] <font color='grey'>- 18时39分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://kaopu.news/story/2026-06-18/%E4%BB%A5%E8%89%B2%E5%88%97%E7%A9%BA%E8%A2%AD%E8%B4%9D%E9%B2%81%E7%89%B9-%E7%89%B9%E6%9C%97%E6%99%AE%E6%89%B9%E5%85%B6%E7%A0%B4%E5%9D%8F%E7%BE%8E%E4%BC%8A%E5%8D%8F%E8%AE%AE-67bbca" target="_blank" class="news-link">以色列空袭贝鲁特 特朗普批其破坏美伊协议</a> [21] <font color='grey'>- 18时39分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260618174840919800" target="_blank" class="news-link">特朗普与莫迪会晤释放复杂信号！印度试图摆脱对美过度依赖？</a> [27] <font color='grey'>- 18时39分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
