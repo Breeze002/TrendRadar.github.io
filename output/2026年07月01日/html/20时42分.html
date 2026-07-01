@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 111</p><p>生成时间: 2026-07-01 20:42:55</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">AI 半导体 商业航空 黄金 白银 芯片 算力 科技</td>
+                <td class="count">15</td>
+                <td class="percentage">13.51%</td>
+                <td class="titles"><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1224304" target="_blank" class="news-link">PicGo 3.0.0 发布，官方图床，云相册， AI Skills 都有了</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 20时42分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3775976" target="_blank" class="news-link">甲骨文的AI焦虑：建了数千亿数据中心，但就怕OpenAI付不起账单</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 20时42分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3775972" target="_blank" class="news-link">当华尔街策略师依赖同一套AI：交易更拥挤、风险更集中、错误传播更快</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 20时42分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3775932" target="_blank" class="news-link">市场等待沃什讲话与非农数据，美股盘前存储芯片股走低，康宁跌超4%，黄金再跌1%</a> [6] <font color='grey'>- 20时42分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3775973" target="_blank" class="news-link">松下：未来两年，将向AI基础设施投资5000亿日元</a> [6] <font color='grey'>- 20时42分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/mailadept-by-mailwarm-yc-s20?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">MailAdept by mailwarm</a> [7] <font color='grey'>- 20时42分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/allenai/olmocr" target="_blank" class="news-link">allenai / olmocr</a> [7]</div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/airtop?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Mark by Airtop</a> [8] <font color='grey'>- 20时42分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/stigg?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">AI Usage, Under Control</a> [14] <font color='grey'>- 20时42分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260701201600125800" target="_blank" class="news-link">ADP数据公布后，美元指数DXY短线小幅走低，报101.42，现货黄金波动不大，报4024.8美元/盎司。</a> [14] <font color='grey'>- 20时42分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260701201300125800" target="_blank" class="news-link">黄金反复拉锯，震荡何时结束？市场等待什么信号？金十研究员Steven正在直播，立即观看&gt;&gt;</a> [17] <font color='grey'>- 20时42分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260701201235308800" target="_blank" class="news-link">野村证券团队：断言芯片股见顶还为时过早</a> [19] <font color='grey'>- 20时42分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/yikart/AiToEarn" target="_blank" class="news-link">yikart / AiToEarn</a> [20]</div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://kaopu.news/story/2026-07-01/%E9%AB%98%E5%B8%82%E6%97%A9%E8%8B%977%E6%9C%88%E8%AE%BF%E5%8D%B0-%E6%97%A5%E5%8D%B0%E6%8B%9F%E7%AD%BE%E7%BD%B2%E7%BB%8F%E6%B5%8E%E5%AE%89%E5%85%A8%E4%B8%8Eai%E5%8D%8F%E8%AE%AE-b2ede0" target="_blank" class="news-link">高市早苗7月访印 日印拟签署经济安全与AI协议</a> [21] <font color='grey'>- 20时42分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260701200839600800" target="_blank" class="news-link">行云科技：海南行云签署55.09亿元算力服务协议</a> [25] <font color='grey'>- 20时42分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">特朗普 马斯克</td>
+                <td class="count">1</td>
+                <td class="percentage">0.9%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3775974" target="_blank" class="news-link">哈塞特：美联储部分成员或为“打击特朗普”而投票 ，提高利率将是一个错误</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 20时42分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
