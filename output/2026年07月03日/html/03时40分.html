@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 61</p><p>生成时间: 2026-07-03 03:40:42</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">AI 半导体 商业航空 黄金 白银 芯片 算力 科技</td>
+                <td class="count">14</td>
+                <td class="percentage">22.95%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3776098" target="_blank" class="news-link">Meta Platforms称，过去四个月里，AI智能体的开发并未“如我们预期的那样加速”</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 03时40分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260703033634561800" target="_blank" class="news-link">分析师：Meta承认AI进展未达预期，但并非“举白旗”</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 03时40分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260703032727582800" target="_blank" class="news-link">传特斯拉控AI成本 员工每周不得超过200美元</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 03时40分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3776095" target="_blank" class="news-link">哈塞特：美国政府正和大型AI公司对话，探讨如何分享收益</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 03时40分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3776091" target="_blank" class="news-link">Anthropic自研AI芯片计划引发美股半导体大跌！闪迪大跌12%，纳指100转跌超1%</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 03时40分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260703031430269800" target="_blank" class="news-link">据The Information：特斯拉(TSLA.O)将员工AI支出上限设定为每周200美元。</a> [6] <font color='grey'>- 03时40分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=48765743" target="_blank" class="news-link">Klara and the Sun Essay Contest – $1k Prize – AI Use Allowed</a> [7] <font color='grey'>- 03时40分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3776090" target="_blank" class="news-link">本土模型+千万机器人！日本祭出&quot;主权AI&quot;大计，2.3万亿美元押未来</a> [8] <font color='grey'>- 03时40分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=48762725" target="_blank" class="news-link">Spain Orders Blacklist of Palantir from Public and Private Companies</a> [10] <font color='grey'>- 03时40分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://kaopu.news/story/2026-07-02/meta%E6%8B%9F%E5%87%BA%E5%94%AE%E5%A4%9A%E4%BD%99ai%E7%AE%97%E5%8A%9B-%E6%97%A5%E9%9F%A9%E5%AD%98%E5%82%A8%E8%8A%AF%E7%89%87%E8%82%A1%E5%A4%A7%E8%B7%8C-91d996" target="_blank" class="news-link">Meta拟出售多余AI算力 日韩存储芯片股大跌</a> [10] <font color='grey'>- 03时40分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://kaopu.news/story/2026-07-02/%E8%8B%B1%E4%BC%9F%E8%BE%BE%E6%89%B6%E6%8C%81%E6%96%B0%E5%85%B4%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%95%86%E4%B8%BA%E5%88%9D%E5%88%9Bai%E5%85%AC%E5%8F%B8%E7%AE%97%E5%8A%9B%E7%A7%9F%E8%B5%81%E5%85%9C%E5%BA%95-e1936f" target="_blank" class="news-link">英伟达扶持新兴云服务商为初创AI公司算力租赁兜底</a> [11] <font color='grey'>- 03时40分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260703025934985800" target="_blank" class="news-link">2008年以来最大波动率差距 科技牛市出现降温信号</a> [13] <font color='grey'>- 03时40分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260703025612811800" target="_blank" class="news-link">Meta Platforms(META.O)CEO：过去四个月里，AI智能体的开发并未“如我们预期的那样加速”。</a> [15] <font color='grey'>- 03时40分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260703023104405800" target="_blank" class="news-link">上海黄金交易所黄金T+D 7月2日（周四）晚盘收盘上涨1.23%报898.0元/克；&lt;br/&gt;上海黄金交易所白银T+D 7月2日（周四）晚盘收盘上涨1.59%报14810.0元/千克。</a> [25] <font color='grey'>- 03时40分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">特朗普 马斯克</td>
+                <td class="count">1</td>
+                <td class="percentage">1.64%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260703023131471800" target="_blank" class="news-link">美国财政部：财政部与国税局将接受大型上市公司股票捐赠，为“特朗普账户”儿童金融账户计划提供支持。</a> [23] <font color='grey'>- 03时40分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
