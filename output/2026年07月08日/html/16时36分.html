@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 156</p><p>生成时间: 2026-07-08 16:36:55</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">AI 半导体 商业航空 黄金 白银 芯片 算力 科技</td>
+                <td class="count">31</td>
+                <td class="percentage">19.87%</td>
+                <td class="titles"><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=48827858" target="_blank" class="news-link">GitLost: We Tricked GitHub&#x27;s AI Agent into Leaking Private Repos</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 16时36分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260708161926675800" target="_blank" class="news-link">现货黄金短线下挫近40美元，最低至4080.88美元/盎司，日内跌幅0.43%。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 16时36分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1225854" target="_blank" class="news-link">话说 AI 服务器运维有搞头吗，是服务器面板 AI 化，还是直接 SSH 给 AI 一把嗦呢？</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 16时36分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=48825749" target="_blank" class="news-link">Tenda firmware (multiple versions) contains hidden authentication backdoor</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 16时36分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3776443" target="_blank" class="news-link">摩根大通：开源潮下中国AI进入“赢家多吃”时代，上调智谱目标价至2000港元</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 16时36分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3776428" target="_blank" class="news-link">恒科指暴涨5%，阿里狂飙超10%，A股震荡收跌，创业板跌近2%，芯片、AI服务器爆发</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 16时36分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1225845" target="_blank" class="news-link">兄弟们，大家现在的 AI Coding 工具都是公司报销，还是自费“付费上班”？</a> [6] <font color='grey'>- 16时36分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://kaopu.news/story/2026-07-08/%E9%9F%A9%E8%82%A1%E6%9A%B4%E8%B7%8C8%E8%A7%A6%E5%8F%91%E7%86%94%E6%96%AD-%E4%B8%89%E6%98%9F%E7%AD%89%E7%A7%91%E6%8A%80%E6%9D%83%E9%87%8D%E8%82%A1%E9%87%8D%E6%8C%AB-8f897b" target="_blank" class="news-link">韩股暴跌8%触发熔断 三星等科技权重股重挫</a> [6] <font color='grey'>- 16时36分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3776450" target="_blank" class="news-link">7月AI大乱斗：国外GPT-5.6、Grok4.5、Gemini 3 Pro轮流登场，国内DeepSeek V4正式版也来了！</a> [6] <font color='grey'>- 16时36分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/sellerview-ai?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Sellerview.ai</a> [7] <font color='grey'>- 16时36分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/visualix-ai?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Visualix Ai</a> [8] <font color='grey'>- 16时36分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3776441" target="_blank" class="news-link">韩国股市跌入技术性熊市，监管紧急开会：半导体板块过度集中加剧市场波动</a> [9] <font color='grey'>- 16时36分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3776428" target="_blank" class="news-link">恒科指暴涨5%，阿里狂飙超10%，A股震荡收跌，创业板跌近2%，芯片、AI服务器爆发</a> [10] <font color='grey'>- 16时36分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3776448" target="_blank" class="news-link">韩国AI牛市大赢家！国民年金二季度暴赚189万亿韩元，三星、SK海力士贡献近八成</a> [11] <font color='grey'>- 16时36分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260708161448562800" target="_blank" class="news-link">东材科技：预计2026年上半年净利润为3.12亿元左右，同比增加63.93%</a> [11] <font color='grey'>- 16时36分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3776425" target="_blank" class="news-link">AI情绪逆转叠加中东地缘冲击，韩股跌入技术性熊市，三星电子再度跌超5%，油价急涨超3%</a> [12] <font color='grey'>- 16时36分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3776441" target="_blank" class="news-link">韩国股市跌入技术性熊市，监管紧急开会：半导体板块过度集中加剧市场波动</a> [13] <font color='grey'>- 16时36分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260708161324385800" target="_blank" class="news-link">过去18个月，这家央行增持了28吨黄金</a> [14] <font color='grey'>- 16时36分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/katpult-ai?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Katpult AI</a> [18] <font color='grey'>- 16时36分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260708161157118800" target="_blank" class="news-link">香港恒生指数7月8日（周三）收盘上涨702.57点，涨幅2.99%，报24199.46点；&lt;br/&gt;香港恒生科技指数7月8日（周三）收盘上涨223.98点，涨幅4.97%，报4731.02点；&lt;br/&gt;国企指数7月8日（周三）收盘上涨313.96点，涨幅4.04%，报8084.22点；&lt;br/&gt;红筹指数7月8日（周三）收盘上涨69.8点，涨幅1.83%，报3874.93点。</a> [18] <font color='grey'>- 16时36分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/member/articles/3776357" target="_blank" class="news-link">腾讯AI新船票：WorkBuddy登顶生产力工具，从“慢半拍”到“产品之王”蜕变</a> [19] <font color='grey'>- 16时36分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1225781" target="_blank" class="news-link">分享几个 Mac 上自用的小工具：本地模型管理、AI 会话看板、剪贴板历史和隐藏应用</a> [20] <font color='grey'>- 16时36分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3776415" target="_blank" class="news-link">错失AI狂欢与万亿ETF撤退：宁泉资产坚守“反共识”策略的代价与逻辑</a> [20] <font color='grey'>- 16时36分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1225778" target="_blank" class="news-link">你们公司对 AI Agent 的额度开始缩减了吗</a> [21] <font color='grey'>- 16时36分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3776416" target="_blank" class="news-link">SpaceX与Cursor最快本周三发布联合AI模型，剑指Opus 4.8及GPT-5.5</a> [21] <font color='grey'>- 16时36分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1225767" target="_blank" class="news-link">写了一个 ai 生成短剧网站</a> [23] <font color='grey'>- 16时36分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=48821102" target="_blank" class="news-link">We&#x27;re extending access to Fable 5 on all paid plans through July 12</a> [23] <font color='grey'>- 16时36分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/member/articles/3776269" target="_blank" class="news-link">AI景气见顶了吗？6组交叉数据，理解市场焦虑点</a> [25] <font color='grey'>- 16时36分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1225748" target="_blank" class="news-link">支持桌面全平台的 ai 翻译软件， 简洁好用</a> [26] <font color='grey'>- 16时36分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1225745" target="_blank" class="news-link">做了一个 GPT Image 2 AI 图片生成器和提示词库</a> [28] <font color='grey'>- 16时36分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3776431" target="_blank" class="news-link">靠芯片与AI交易完成逆转，对冲基金创2021年以来最佳半年表现</a> [29] <font color='grey'>- 16时36分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">特朗普 马斯克</td>
+                <td class="count">14</td>
+                <td class="percentage">8.97%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260708161802785800" target="_blank" class="news-link">美国总统特朗普：（关于伊朗）我不想和他们打交道，他们是一群&quot;病态的人&quot;。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 16时36分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260708161725764800" target="_blank" class="news-link">美国总统特朗普：（关于与伊朗的谅解备忘录）我认为已经结束。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 16时36分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260708161529631800" target="_blank" class="news-link">美国总统特朗普：意大利和英国不让我们使用军事基地，真是太糟糕了。</a> [8] <font color='grey'>- 16时36分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260708161509229800" target="_blank" class="news-link">北约秘书长吕特：我们将确保与特朗普关于格陵兰岛的协议逐步落实。</a> [9] <font color='grey'>- 16时36分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260708161312256800" target="_blank" class="news-link">北约秘书长吕特向美国总统特朗普表示，在伊朗问题上“我支持你”。</a> [15] <font color='grey'>- 16时36分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260708161211232800" target="_blank" class="news-link">美国总统特朗普：我们在伊朗问题上浪费了太多时间。</a> [16] <font color='grey'>- 16时36分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260708161136061800" target="_blank" class="news-link">美国总统特朗普：伊朗向船只发射火箭弹，这就是美国反击的原因。</a> [20] <font color='grey'>- 16时36分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260708161113078800" target="_blank" class="news-link">美国总统特朗普：我们昨晚对伊朗进行了强有力的攻击。</a> [21] <font color='grey'>- 16时36分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260708161044613800" target="_blank" class="news-link">美国总统特朗普：我们在北约受到不公平对待，我们支付的费用不成比例。</a> [22] <font color='grey'>- 16时36分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260708161037179800" target="_blank" class="news-link">美国总统特朗普：格陵兰岛对我们来说是个大问题。</a> [23] <font color='grey'>- 16时36分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260708161019679800" target="_blank" class="news-link">美国总统特朗普指示财长贝森特终止与西班牙的所有贸易，特朗普称，我不想与他们有任何业务往来。</a> [24] <font color='grey'>- 16时36分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260708160931248800" target="_blank" class="news-link">美国总统特朗普：西班牙是北约中糟糕的伙伴。</a> [26] <font color='grey'>- 16时36分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260708160918928800" target="_blank" class="news-link">美国总统特朗普：对北约在格陵兰岛和伊朗问题上感到不满。</a> [27] <font color='grey'>- 16时36分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://kaopu.news/story/2026-07-07/%E5%8F%A4%E5%B7%B4%E5%85%A8%E5%9B%BD%E5%A4%A7%E5%81%9C%E7%94%B5%E5%8D%A1%E6%96%AF%E7%89%B9%E7%BD%97%E5%AD%99%E5%AD%90%E8%A1%A8%E6%80%81%E6%84%BF%E4%B8%8E%E7%89%B9%E6%9C%97%E6%99%AE%E8%B0%88%E5%88%A4-2f0d42" target="_blank" class="news-link">古巴全国大停电，卡斯特罗孙子表态愿与特朗普谈判</a> [30] <font color='grey'>- 16时36分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
