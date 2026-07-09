@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 100</p><p>生成时间: 2026-07-09 20:43:36</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">AI 半导体 商业航空 黄金 白银 芯片 算力 科技</td>
+                <td class="count">32</td>
+                <td class="percentage">32.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/timbal-ai?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Timbal AI</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 20时43分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3776583" target="_blank" class="news-link">AI时代终点是核能？微软谷歌疯狂抢购核电，小型模块化反应堆成华尔街新宠</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 20时43分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1226166" target="_blank" class="news-link">AI 撸了一个电影资源网站</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 20时43分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/perfai-security-for-vibe-coded-apps?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Perfai Security</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 20时43分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3776584" target="_blank" class="news-link">AI重塑企业IT！星巴克开启“自研软件”，微软、IBM面临新挑战</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 20时43分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260709203913042800" target="_blank" class="news-link">现货白银日内涨幅扩大至2%，现报59.48美元/盎司。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 20时43分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1226163" target="_blank" class="news-link">AI 编译器技术沙龙 0801 北京站！</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 20时43分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/opper-ai?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Opper AI</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 20时43分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3776581" target="_blank" class="news-link">报道：Meta自研AI芯片“Iris”计划9月量产，2027年算力拟翻倍至14吉瓦</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 20时43分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260709203638336800" target="_blank" class="news-link">DeepTalk：价格是最大的障眼法，黄金崩跌是一个熟悉的局</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 20时43分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260709203519142800" target="_blank" class="news-link">美光科技(MU.O)：将与环球晶圆探索下一代晶圆技术及工艺创新合作。</a> [6] <font color='grey'>- 20时43分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260709203406084800" target="_blank" class="news-link">美光科技(MU.O)：与环球晶圆的供应协议将确保获得大量原始硅晶圆产能。</a> [7] <font color='grey'>- 20时43分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/charts/41959372" target="_blank" class="news-link">韩股跌入熊市，投资者不敢看账户，高盛：&quot;是时候买中国AI了&quot;</a> [8] <font color='grey'>- 20时43分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260709203319770800" target="_blank" class="news-link">美光科技(MU.O)：此次融资支持旨在推进环球晶圆德州300毫米原始硅晶圆制造工厂的开发和制造能力。</a> [8] <font color='grey'>- 20时43分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/monogram-ai?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Monogram AI</a> [9] <font color='grey'>- 20时43分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/unclecode/crawl4ai" target="_blank" class="news-link">unclecode / crawl4ai</a> [9]</div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3776490" target="_blank" class="news-link">高盛：下半年的科技股怎么买？</a> [9] <font color='grey'>- 20时43分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260709203304395800" target="_blank" class="news-link">美光科技(MU.O)：将与环球晶圆签署为期10年的供应协议。</a> [9] <font color='grey'>- 20时43分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3776523" target="_blank" class="news-link">海力士美股IPO点燃AI热情，美光盘前涨3%、康宁涨5%，韩股弱势反弹，黄金触及4100</a> [10] <font color='grey'>- 20时43分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/gate-ai-2?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Constellation Gate AI</a> [11] <font color='grey'>- 20时43分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/member/articles/3776573" target="_blank" class="news-link">去杠杆风暴下半场：美韩半导体风险释放到什么程度？</a> [11] <font color='grey'>- 20时43分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260709203139851800" target="_blank" class="news-link">美光科技(MU.O)：将为环球晶圆提供5亿美元融资。</a> [11] <font color='grey'>- 20时43分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3776575" target="_blank" class="news-link">金价越跌，央行越买！人行连续20个月增持黄金</a> [12] <font color='grey'>- 20时43分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260709203117118800" target="_blank" class="news-link">美银：受存储芯片产能扩张提振，Comet营收和利润率料将上升</a> [12] <font color='grey'>- 20时43分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/kyutai-labs/pocket-tts" target="_blank" class="news-link">kyutai-labs / pocket-tts</a> [14]</div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3776576" target="_blank" class="news-link">工业富联上半年净利预增最高翻倍，AI服务器营收同比增超230%｜财报见闻</a> [14] <font color='grey'>- 20时43分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260709203043306800" target="_blank" class="news-link">美光科技(MU.O)：计划投资30亿美元，以强化美国本土半导体供应链。</a> [14] <font color='grey'>- 20时43分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3776558" target="_blank" class="news-link">前高盛商品主管Jeff Currie：AI繁荣埋下资本错配隐患，“旧经济的复仇”远未结束</a> [18] <font color='grey'>- 20时43分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260709202923240800" target="_blank" class="news-link">通业科技：股东天津英伟达拟减持不超过3%股份</a> [18] <font color='grey'>- 20时43分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3776567" target="_blank" class="news-link">Seedream 5.0 Pro来了：AI生图开始学会“返工</a> [19] <font color='grey'>- 20时43分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/knowyourcompany-ai?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">KnowYourCompany.ai</a> [20] <font color='grey'>- 20时43分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260709202545190800" target="_blank" class="news-link">&lt;a href=&quot;https://cdn.jin10.com/vip_column/index.html#/detail?id=850569&amp;skuID=1671010697886&amp;type=article&amp;courseID=225&amp;from=flash&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;https://img.jin10.com/misc/26/07/ZHkpSjOwNJMbiqnmNltI5.jpg/lite&quot; height=&quot;120&quot;/&gt;&lt;/a&gt;</a> [24] <font color='grey'>- 20时43分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">特朗普 马斯克</td>
+                <td class="count">4</td>
+                <td class="percentage">4.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [靠谱新闻] <a href="https://kaopu.news/story/2026-07-09/%E7%89%B9%E6%9C%97%E6%99%AE%E5%AE%A3%E5%B8%83%E7%BE%8E%E4%BC%8A%E5%81%9C%E7%81%AB%E7%BB%88%E7%BB%93%E7%BE%8E%E5%86%9B%E7%A9%BA%E8%A2%AD%E4%BC%8A%E6%9C%97%E6%B2%B9%E4%BB%B7%E9%A3%99%E5%8D%87-8f5d09" target="_blank" class="news-link">特朗普宣布美伊停火终结美军空袭伊朗油价飙升</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 20时43分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3776569" target="_blank" class="news-link">停火“终结”第二日：美军扩大打击范围、伊朗报复波及卡塔尔基地，特朗普边打边谈</a> [10] <font color='grey'>- 20时43分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://kaopu.news/story/2026-07-09/%E7%89%B9%E6%9C%97%E6%99%AE%E6%8E%88%E6%9D%83%E4%B9%8C%E5%85%8B%E5%85%B0%E7%94%9F%E4%BA%A7%E7%88%B1%E5%9B%BD%E8%80%85%E5%AF%BC%E5%BC%B9-%E6%B3%BD%E8%BF%9E%E6%96%AF%E5%9F%BA%E5%A9%89%E6%8B%92%E8%B5%B4%E8%8E%AB%E6%96%AF%E7%A7%91-a694ee" target="_blank" class="news-link">特朗普授权乌克兰生产爱国者导弹 泽连斯基婉拒赴莫斯科</a> [14] <font color='grey'>- 20时43分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260709202546980800" target="_blank" class="news-link">特朗普骂人欧洲买单，被改写的是金油定价！</a> [23] <font color='grey'>- 20时43分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
