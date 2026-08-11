@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 45</p><p>生成时间: 2026-08-12 06:50:01</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">AI 半导体 商业航空 黄金 白银 芯片 算力 科技</td>
+                <td class="count">8</td>
+                <td class="percentage">17.78%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3779161" target="_blank" class="news-link">中东僵局再撑油价，AI泡沫隐忧打压美科技股，纳指跌0.6%，黄金回落</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 06时50分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260812061846179800" target="_blank" class="news-link">全球最大黄金ETF--SPDR Gold Trust持仓较上日增加1.712吨，当前持仓量为1022.672吨。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 06时50分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3779161" target="_blank" class="news-link">中东僵局再撑油价，AI泡沫隐忧打压美科技股，纳指跌0.6%，黄金回落</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 06时50分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260812055132698800" target="_blank" class="news-link">亚马逊云服务(AWS)：OpenAI的Daybreak Red和Daybreak Blue现已面向Amazon Bedrock上的符合条件的客户开放。</a> [6] <font color='grey'>- 06时50分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3779219" target="_blank" class="news-link">AI光通信需求强劲，Lumentum上季营收翻倍，本季指引更超预期，债务重组致超70亿巨亏｜财报见闻</a> [7] <font color='grey'>- 06时50分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260812054726873800" target="_blank" class="news-link">全球最大白银ETF--iShares Silver Trust持仓较上日增加106.82吨，当前持仓量为15313.54吨。欢迎点击查看数据中心...</a> [8] <font color='grey'>- 06时50分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260812054236336800" target="_blank" class="news-link">Coreweave(CRWV.O)CFO：预计今年年底公司活跃算力规模将超过1.85吉瓦，高于此前指引的超过1.7吉瓦。</a> [10] <font color='grey'>- 06时50分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=49264755" target="_blank" class="news-link">Suzanne: AI tool for designing and manufacturing physical products</a> [11] <font color='grey'>- 06时50分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">特朗普 马斯克</td>
+                <td class="count">3</td>
+                <td class="percentage">6.67%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260812053053264800" target="_blank" class="news-link">美法官叫停美邮政局执行特朗普涉限制邮寄选票的行政令</a> [14] <font color='grey'>- 06时50分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260812052220258800" target="_blank" class="news-link">美国总统特朗普：医疗补助将不再为未成年人提供性别转换手术和激素治疗的资金。</a> [19] <font color='grey'>- 06时50分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260812050519717800" target="_blank" class="news-link">美国法官阻止邮政服务根据特朗普命令限制邮寄投票。</a> [21] <font color='grey'>- 06时50分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
