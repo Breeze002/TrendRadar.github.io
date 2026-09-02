@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 65</p><p>生成时间: 2026-09-03 07:56:31</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">AI 半导体 商业航空 黄金 白银 芯片 算力 科技</td>
+                <td class="count">17</td>
+                <td class="percentage">26.15%</td>
+                <td class="titles"><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=49543841" target="_blank" class="news-link">METR Report on OpenAI / Hugging Face Hacking Incident</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 07时56分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260903071855197800" target="_blank" class="news-link">金十数据整理：每日科技要闻速递（9月3日）</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 07时56分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3780917" target="_blank" class="news-link">伯克希尔CEO：巴菲特参与对Alphabet投资，AI数据中心成能源业务重大机遇</a> [8] <font color='grey'>- 07时56分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3780937" target="_blank" class="news-link">地缘风险升温，荷兰央行将约120亿美元黄金储备从美加转移至伦敦</a> [8] <font color='grey'>- 07时56分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3780896" target="_blank" class="news-link">黄金卖压即将枯竭！德银：鹰派美联储冲击有限，主动资金或接棒下一轮涨势</a> [9] <font color='grey'>- 07时56分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3780939" target="_blank" class="news-link">博通上季营收增86%，AI芯片收入增两倍，本季指引“瑕疵”但AI收入料三年高增，盘后巨震 | 财报见闻</a> [9] <font color='grey'>- 07时56分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3780921" target="_blank" class="news-link">两种小金属卡了AI脖子，中国供应链占主导</a> [10] <font color='grey'>- 07时56分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3780943" target="_blank" class="news-link">博通电话会：AI业务营收指引从560亿美元上调至580亿美元。</a> [10] <font color='grey'>- 07时56分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3780938" target="_blank" class="news-link">Meta发布更强大AI模型，声称进一步缩小了与竞争对手差距</a> [12] <font color='grey'>- 07时56分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3780930" target="_blank" class="news-link">韩国万亿美元主权 AI 投资：英伟达胜出，海力士承压</a> [14] <font color='grey'>- 07时56分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/member/articles/3780909" target="_blank" class="news-link">中国出口三季度高位但渐进回落，中债独立行情与银行补负债信号，韩国AI拉动8月出口---0902宏观脱水</a> [15] <font color='grey'>- 07时56分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=49541754" target="_blank" class="news-link">Altair Basic Interpreter Source Code (1975) [pdf]</a> [16] <font color='grey'>- 07时56分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3780941" target="_blank" class="news-link">Snowflake上季营收超预期增35%，AI收入“显著跃升”，上调全年指引，盘后拉涨 | 财报见闻</a> [16] <font color='grey'>- 07时56分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=49540565" target="_blank" class="news-link">Qantas Airbus A380 engine failure in 2010 (2023)</a> [18] <font color='grey'>- 07时56分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260903063949906800" target="_blank" class="news-link">美联储褐皮书：经济温和增长，数据中心与AI投资成重要支撑</a> [19] <font color='grey'>- 07时56分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=49535548" target="_blank" class="news-link">Aging brains blend memories together instead of just forgetting them</a> [22] <font color='grey'>- 07时56分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260903060811595800" target="_blank" class="news-link">全球最大黄金ETF--SPDR Gold Trust持仓较上日大增9.984吨，当前持仓量为1056.62吨。</a> [26] <font color='grey'>- 07时56分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">特朗普 马斯克</td>
+                <td class="count">6</td>
+                <td class="percentage">9.23%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260903072957495800" target="_blank" class="news-link">据NewsNation：特朗普表示，他昨晚晚些时候与美国防长赫格塞思秘书通了电话，讨论伊朗问题。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 07时56分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3780946" target="_blank" class="news-link">特朗普称对伊朗新一轮打击不会“持续太久”，美方“随时准备”再发动打击</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 07时56分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260903071653900800" target="_blank" class="news-link">霍尔木兹海峡要改名“特朗普海峡”？特朗普又放话：中期选举不会影响伊朗战争</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 07时56分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260903071106701800" target="_blank" class="news-link">白宫：特朗普今日签署了临时拨款法案使其生效。</a> [7] <font color='grey'>- 07时56分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260903065651735800" target="_blank" class="news-link">众议院共和党人对特朗普贸易议程不满 聚焦牛肉和加拿大议题</a> [17] <font color='grey'>- 07时56分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260903062712739800" target="_blank" class="news-link">美法官叫停特朗普政府关于“出生公民权”的最新行政令</a> [21] <font color='grey'>- 07时56分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
