@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 117</p><p>生成时间: 2026-09-10 18:59:43</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">AI 半导体 商业航空 黄金 白银 芯片 算力 科技</td>
+                <td class="count">18</td>
+                <td class="percentage">15.38%</td>
+                <td class="titles"><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1241121" target="_blank" class="news-link">还能用的两根羊毛， b.ai 很稳很慢，商汤反复 429</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 18时59分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260910185248022800" target="_blank" class="news-link">现货白银日内下跌2.00%，现报65.92美元/盎司。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 18时59分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3781464" target="_blank" class="news-link">A股三大股指集体下跌，成交额不足1.7万亿，银行、电力逆势走强，存储芯片活跃，恒科指跌超2%，智谱大跌10%</a> [8] <font color='grey'>- 18时59分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/member/articles/3781279" target="_blank" class="news-link">AI硬件链反弹！拥挤交易过后，TMT目前成交占比到什么位置了？</a> [9] <font color='grey'>- 18时59分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/armory3d/armorpaint" target="_blank" class="news-link">armory3d / armorpaint</a> [10]</div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3781412" target="_blank" class="news-link">27岁研究员连辞OpenAI、Anthropic！两家都在拿我们的命下注</a> [10] <font color='grey'>- 18时59分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/airocards?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">AIrocards</a> [11] <font color='grey'>- 18时59分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/THU-MAIC/OpenMAIC" target="_blank" class="news-link">THU-MAIC / OpenMAIC</a> [13]</div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1241082" target="_blank" class="news-link">SOS 目前 ai 套餐各位 v 友选哪家</a> [14] <font color='grey'>- 18时59分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260910183703366800" target="_blank" class="news-link">现货黄金回落至4380美元/盎司下方，日内跌0.49%。现货白银向下触及66美元/盎司，日内跌1.92%。</a> [14] <font color='grey'>- 18时59分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/charts/41959807" target="_blank" class="news-link">Anthropic AI安全负责人：十年内AI灭绝人类概率超10%</a> [17] <font color='grey'>- 18时59分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1241059" target="_blank" class="news-link">分享一个浏览器里的 AI 视频与 AI 图片创作工具： Tikdek</a> [19] <font color='grey'>- 18时59分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/aiboq?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">AIBOQ</a> [20] <font color='grey'>- 18时59分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260910183220860800" target="_blank" class="news-link">现货白银日内跌超1美元，现报66.26美元/盎司，跌幅1.50%。</a> [20] <font color='grey'>- 18时59分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260910182927510800" target="_blank" class="news-link">甲骨文财报前瞻：除了AI支出与云计算增长外，6380亿积压订单是蜜糖还是包袱？</a> [22] <font color='grey'>- 18时59分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3781477" target="_blank" class="news-link">韩国央行警告：挂钩芯片股的海外衍生品激增，正在放大本土市场波动</a> [23] <font color='grey'>- 18时59分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/charts/41959804" target="_blank" class="news-link">AI瓶颈交易还存在吗？反方：2028产能大过剩，人类总是建过头</a> [26] <font color='grey'>- 18时59分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/member/articles/3781467" target="_blank" class="news-link">硅谷都在聊些什么？AI下半场开始！高盛Communacopia + TMT大会现场解码巨头框架</a> [27] <font color='grey'>- 18时59分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">特朗普 马斯克</td>
+                <td class="count">2</td>
+                <td class="percentage">1.71%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260910184129334800" target="_blank" class="news-link">摩根大通、第一资本硬刚特朗普：对抗或比和解更安全</a> [10] <font color='grey'>- 18时59分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3781483" target="_blank" class="news-link">30年期国债拍卖在即，特朗普5000美元发钱承诺或冲击美债市场</a> [12]</div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
