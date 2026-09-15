@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 40</p><p>生成时间: 2026-09-16 05:05:21</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">AI 半导体 商业航空 黄金 白银 芯片 算力 科技</td>
+                <td class="count">11</td>
+                <td class="percentage">27.5%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3781825" target="_blank" class="news-link">OpenAI瞄准加拿大数据中心，高管盛赞卡尼计划</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 05时05分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3781824" target="_blank" class="news-link">黄仁勋：AI安全无需新立法，市场力量已足够</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 05时05分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/premium/articles/3781821?layout=wscn-layout" target="_blank" class="news-link">美联储9月议息与中期选举临近，黄金和铜为什么要再等一等？【大鹏说6】</a> [6] <font color='grey'>- 05时05分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3781817" target="_blank" class="news-link">哈塞特：特朗普尊重沃什决定，AI风险应由私营部门解决</a> [7] <font color='grey'>- 05时05分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3781794" target="_blank" class="news-link">马斯克提出AI安全新思路：与其等政府出手，不如让竞争对手互相&quot;找茬&quot;</a> [10] <font color='grey'>- 05时05分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260916042618878800" target="_blank" class="news-link">美众议院议长：AI领域的大人物们将赴白宫参加重要会议</a> [11] <font color='grey'>- 05时05分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3781815" target="_blank" class="news-link">研发作用有限？台积电高管：AI只是&quot;三岁超人&quot;，强大却不辨是非</a> [13] <font color='grey'>- 05时05分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3781813" target="_blank" class="news-link">AI服务器迎来新变量，美光推出全球首款超高密度内存模块</a> [14] <font color='grey'>- 05时05分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260916040313273800" target="_blank" class="news-link">美光科技(MU.O)任命迪尔德丽·汉福德（Deirdre Hanford）领导美光研究实验室。</a> [18] <font color='grey'>- 05时05分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260916040200228800" target="_blank" class="news-link">据Politico：OpenAI正在为《生物数据网络法案》、《人工智能就绪生物数据标准法案》以及《规模化生物学法案》提供新的支持。</a> [19] <font color='grey'>- 05时05分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260916035124560800" target="_blank" class="news-link">黄仁勋：AI行业不需要新的安全监管法规</a> [22] <font color='grey'>- 05时05分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">特朗普 马斯克</td>
+                <td class="count">2</td>
+                <td class="percentage">5.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3781803" target="_blank" class="news-link">能源休战协议破裂：乌克兰无视特朗普警告，袭击俄罗斯炼油厂</a> [8] <font color='grey'>- 05时05分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260916035951077800" target="_blank" class="news-link">法庭文件显示，特朗普政府就一项裁决提出上诉，该裁决阻止环境保护署将加州汽车排放标准提交给国会以寻求废除。</a> [21] <font color='grey'>- 05时05分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
