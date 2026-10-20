@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 56</p><p>生成时间: 2026-10-21 05:26:11</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">AI 半导体 商业航空 黄金 白银 芯片 算力 科技</td>
+                <td class="count">12</td>
+                <td class="percentage">21.43%</td>
+                <td class="titles"><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=50171771" target="_blank" class="news-link">On AI writing</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 05时26分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3784066" target="_blank" class="news-link">SpaceX Q3 AI业务大爆发、收入暴增830%，利润碾压预期，资本支出近200亿｜财报见闻</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 05时26分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3784065" target="_blank" class="news-link">美国人工智能事务主管：负责任开发AI的建议将很快发布</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 05时26分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=50170021" target="_blank" class="news-link">Claude designed protein binders against scorpion neurotoxins</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 05时26分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3784071" target="_blank" class="news-link">马斯克在SpaceX分析师电话会议上表示：存在“明年算力达到20 GW”的可能</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 05时26分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3784062" target="_blank" class="news-link">Anthropic备战IPO：上半年净亏损超过807亿美元，总算力承诺支出将超6000亿美元</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 05时26分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20261021050049109800" target="_blank" class="news-link">马斯克：SpaceX(SPCX.O)对2027年实现10吉瓦算力上线“相当有信心”；在2027年实现超过20吉瓦算力上线的可能性并非为零。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 05时26分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3784061" target="_blank" class="news-link">瑞士9月黄金出口额环比增长6%，对英出口创2012年以来新高</a> [7] <font color='grey'>- 05时26分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3784011" target="_blank" class="news-link">美股见顶最直接的信号：韩国芯片出口？</a> [8] <font color='grey'>- 05时26分</font></div><br><div class='new-title'>🆕 [HackerNews] <a href="https://news.ycombinator.com/item?id=50167536" target="_blank" class="news-link">Facebook Pages require paid subscription to post more than two links per month</a> [10] <font color='grey'>- 05时26分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20261021045041745800" target="_blank" class="news-link">马斯克：如果到明年年底我们的算力新增不足13吉瓦，我会感到意外。</a> [14] <font color='grey'>- 05时26分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20261021043847362800" target="_blank" class="news-link">Anthropic IPO文件：上半年营收163亿美元 未来算力承诺或达7500亿美元</a> [21] <font color='grey'>- 05时26分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">特朗普 马斯克</td>
+                <td class="count">11</td>
+                <td class="percentage">19.64%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3784063" target="_blank" class="news-link">美企起诉特朗普对加拿大征收50%关税，援引大萧条时代法律遭质疑</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 05时26分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20261021050129441800" target="_blank" class="news-link">马斯克：随着GrokBot不断改进，用户的使用量也在增加。SpaceX(SPCX.O)将在数周内大规模向企业部署GrokBot。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 05时26分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3784064" target="_blank" class="news-link">特朗普中选后打击伊朗筹码？美第三艘航母据称料11月底抵中东、增派约万人</a> [6] <font color='grey'>- 05时26分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20261021050007071800" target="_blank" class="news-link">马斯克：SpaceX部署电力、冷却及基础设施的速度可能超过其他所有参与者的总和。</a> [6] <font color='grey'>- 05时26分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20261021045930265800" target="_blank" class="news-link">马斯克：GrokBot是我见过的增长速度最快的产品。</a> [7] <font color='grey'>- 05时26分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20261021045633644800" target="_blank" class="news-link">马斯克：SpaceX(SPCX.O)到2027年底，年度经常性收入预计将在5000亿至1万亿美元之间。</a> [10] <font color='grey'>- 05时26分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20261021045009654800" target="_blank" class="news-link">美媒：马斯克下令限制乌军星链服务 SpaceX希望与白宫统一口径</a> [15] <font color='grey'>- 05时26分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20261021044651454800" target="_blank" class="news-link">马斯克：预测3年内星链卫星将达10万颗，网络容量提升100倍。</a> [16] <font color='grey'>- 05时26分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20261021044610436800" target="_blank" class="news-link">马斯克：SpaceX(SPCX.O)将在星舰第15次试飞中尝试同时回收助推器和飞船。</a> [17] <font color='grey'>- 05时26分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20261021044548342800" target="_blank" class="news-link">马斯克：如果成功，第15次试飞将首次实现轨道级运载火箭的完整回收。</a> [18] <font color='grey'>- 05时26分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20261021044515042800" target="_blank" class="news-link">马斯克：星舰第15次试飞预计下月进行。</a> [19] <font color='grey'>- 05时26分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
